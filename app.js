@@ -8,8 +8,8 @@ const client = new Client({
   user: 'postgres',
   host: 'localhost',
   database: 'llu26',
-  password: '12345',
-  port: 31100,
+  password: 'ihsan0711',
+  port: 5432,
 })
 client.connect(function(err) {
   if (err) throw err;
